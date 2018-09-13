@@ -1,0 +1,82 @@
+.rooms{
+	padding: 100px 0;
+	background-image: url(../Img/house.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	background-color: $boz;
+	.our{
+		color:#fff;
+		h1{
+			font-size: 50px;
+		}
+		
+	}
+	.back{
+		background-color: #fff;
+		position: relative;
+		height: 650px;
+		width: 350px;
+		.back_title{
+			margin: 40px 35px;
+		}
+		img{
+			height: 220px;
+			width: 350px;
+			transition:all 0.6s ease-in-out;
+			&:hover{
+              height: 100%;
+              width: 100%;
+			}
+		}
+
+		.guest_room{
+			display:flex;
+			span{
+				display: flex;
+				margin: -25px 0;
+				padding: 0px 14px;
+
+				i{
+					font-size: 20px;
+					padding: 0px 10px;
+				}
+			}
+		}
+
+
+		.room_text{
+			text-align: left;
+			margin: 20px 30px;
+		}
+
+		.room_btn{
+			text-align: center;
+			button{
+				color: $goy;
+				background-color: #fff;
+				height: 50px;
+				border: 2px solid $goy;
+				width: 230px;
+				transition:all 0.6s ease-in-out;
+				&:hover{
+					background-color: $goy;
+					color: #fff;
+				}
+			}
+		}
+
+		.room_href{
+			text-decoration: none;
+			color: $goy;
+			&:hover{
+				color: $goy;
+				text-decoration: none;
+			}
+		}
+	}
+
+
+
+}

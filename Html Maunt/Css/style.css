@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.abo {
+  padding: 100px 0px;
+}
+
+.ava {
+  position: relative;
+}
+.ava .Availability {
+  background-image: url(../Img/canavar.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.ava .Availability .Availability_text {
+  padding-top: 5%;
+}
+.ava .Availability .Availability_text h4 {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+.ava .Availability .Availability_Color {
+  background-color: #709faf;
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+.ava .Availability .Availability_Color .Availability_Info {
+  text-align: center;
+  margin: 50px 34px;
+}
+.ava .Availability .Availability_Color .Availability_Info h3 {
+  text-align: left;
+  color: #fff;
+}
+.ava .Availability .Availability_Color .Availability_Info span {
+  color: #fff;
+}
+.ava .Availability .Availability_Color .Availability_Info .Availability_bottom {
+  border-bottom: 2px solid #fff;
+}
+.ava .Availability .chek p {
+  color: #709faf;
+}
+.ava .Availability .chek .chek_number span {
+  font-size: 3.5rem;
+  color: #709faf;
+}
+.ava .Availability .chek .chek_data {
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+}
+.ava .Availability .chek .chek_data span {
+  color: #709faf;
+}
+.ava .Availability .chek_guest {
+  background-color: #709faf;
+}
+.ava .Availability .chek_guest span {
+  height: 100%;
+}
+.ava .Availability .chek_guest span button {
+  margin: 0;
+  height: 140px;
+  line-height: 118px;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.ava .Availability .chek_guest span button:hover {
+  opacity: 0.8;
+}
+
+.skate {
+  padding: 100px 0;
+  background-color: #efefef;
+}
+
+.rooms {
+  padding: 100px 0;
+  background-image: url(../Img/house.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  background-color: #efefef;
+}
+.rooms .our {
+  color: #fff;
+}
+.rooms .our h1 {
+  font-size: 50px;
+}
+.rooms .back {
+  background-color: #fff;
+  position: relative;
+  height: 650px;
+  width: 350px;
+}
+.rooms .back .back_title {
+  margin: 40px 35px;
+}
+.rooms .back img {
+  height: 220px;
+  width: 350px;
+  transition: all 0.6s ease-in-out;
+}
+.rooms .back img:hover {
+  height: 100%;
+  width: 100%;
+}
+.rooms .back .guest_room {
+  display: flex;
+}
+.rooms .back .guest_room span {
+  display: flex;
+  margin: -25px 0;
+  padding: 0px 14px;
+}
+.rooms .back .guest_room span i {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.rooms .back .room_text {
+  text-align: left;
+  margin: 20px 30px;
+}
+.rooms .back .room_btn {
+  text-align: center;
+}
+.rooms .back .room_btn button {
+  color: #709faf;
+  background-color: #fff;
+  height: 50px;
+  border: 2px solid #709faf;
+  width: 230px;
+  transition: all 0.6s ease-in-out;
+}
+.rooms .back .room_btn button:hover {
+  background-color: #709faf;
+  color: #fff;
+}
+.rooms .back .room_href {
+  text-decoration: none;
+  color: #709faf;
+}
+.rooms .back .room_href:hover {
+  color: #709faf;
+  text-decoration: none;
+}
+
+.top {
+  background-image: url(../Img/Everest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  position: relative;
+}
+.top nav .right li {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 20px;
+  position: relative;
+  right: 10px;
+}
+.top nav .right li a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: none;
+  padding: 0 22px;
+  transition: all 0.5s ease-in-out;
+}
+.top nav .right li a:hover {
+  color: #709faf;
+  border-bottom: 1px solid #709faf;
+}
+.top nav .right li button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  line-height: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.top nav .right li button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.top .top_text {
+  text-align: center;
+  margin-top: 10%;
+}
+.top .top_text h1 {
+  color: #fff;
+  padding: 15px 2px;
+  font-size: 70px;
+}
+.top .top_text button {
+  height: 50px;
+  width: 180px;
+  border: none;
+  color: #fff;
+  background-color: #709faf;
+}
+.top .top_text button:hover {
+  opacity: 0.7;
+}
+.top .top_icon {
+  text-align: center;
+  margin-top: 10%;
+}
+.top .top_icon span i {
+  color: #709faf;
+  border-radius: 30px;
+  font-size: 70px;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */
